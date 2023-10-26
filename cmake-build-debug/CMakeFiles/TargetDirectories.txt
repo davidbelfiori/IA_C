@@ -1,0 +1,3 @@
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/new_target.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

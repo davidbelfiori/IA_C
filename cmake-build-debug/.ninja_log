@@ -1,0 +1,5 @@
+# ninja log v5
+2	164	1698329316543695597	CMakeFiles/new_target.dir/mcd/main.c.o	7615d4579444c225
+0	162	1698329316537102445	CMakeFiles/new_target.dir/mcd/mcd.c.o	424c13d373af201a
+6	180	1698329316560348924	CMakeFiles/new_target.dir/array/array1.c.o	149786ba140c88ba
+176	381	1697443457400534722	new_target	ea0bbd57bbaba9be
