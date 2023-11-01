@@ -7,7 +7,8 @@
 #include "stdlib.h"
 
 int main(int argc, char **argv) {
-    int *a, n;
+    int *a;
+    int n;
     n = 8;
     a=&n;
 

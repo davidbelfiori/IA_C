@@ -13,3 +13,6 @@ add_executable(puntatori1 puntatori/puntatori1.c)
 add_executable(puntatori2 puntatori/puntatori2.c)
 add_executable(raddopia puntatori/puntatori_raddoppia.c)
 add_executable(punt_mcd puntatori/puntatori_mcd.c)
+add_executable(struttureintr strutture/strutture_intro.cpp
+        strutture/struttureWho.c)
+add_executable(who strutture/struttureWho.c)

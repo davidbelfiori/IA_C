@@ -1,5 +1,12 @@
 # ninja log v5
-2	164	1698329316543695597	CMakeFiles/new_target.dir/mcd/main.c.o	7615d4579444c225
-0	162	1698329316537102445	CMakeFiles/new_target.dir/mcd/mcd.c.o	424c13d373af201a
-6	180	1698329316560348924	CMakeFiles/new_target.dir/array/array1.c.o	149786ba140c88ba
 176	381	1697443457400534722	new_target	ea0bbd57bbaba9be
+1	102	7203877763410200	CMakeFiles/puntatori1.dir/puntatori/puntatori1.c.obj	2cf2e4ee110e835e
+103	279	7203877765122437	puntatori1.exe	3ecc22468cc4aa18
+5	108	7203879162402931	CMakeFiles/puntatori2.dir/puntatori/puntatori2.c.obj	2fc54e389a608c7c
+109	242	7203879163679480	puntatori2.exe	3fbdc0ff50ef4d3e
+3	112	7203969356361478	CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.obj	318354bcada013a1
+113	238	7203969357568400	struttureintr.exe	f606d0da6486cefa
+9	230	7204010136700143	CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.obj	318354bcada013a1
+3	250	7204010136896046	CMakeFiles/struttureintr.dir/strutture/struttureWho.c.obj	c4b6007830693a7e
+1	103	7204010193764680	CMakeFiles/who.dir/strutture/struttureWho.c.obj	d4ff48fe29abe24e
+104	237	7204010195064806	who.exe	df97183adbc7b06e
