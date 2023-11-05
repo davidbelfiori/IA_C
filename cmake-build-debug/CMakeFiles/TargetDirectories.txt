@@ -6,5 +6,6 @@ C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/raddopia.dir
 C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/punt_mcd.dir
 C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/struttureintr.dir
 C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/who.dir
+C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/sequenze_metodi.dir
 C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
