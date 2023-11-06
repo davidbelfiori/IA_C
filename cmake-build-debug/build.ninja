@@ -322,6 +322,39 @@ build who.exe: C_EXECUTABLE_LINKER__who_Debug CMakeFiles/who.dir/strutture/strut
   TARGET_IMPLIB = libwho.dll.a
   TARGET_PDB = who.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target sequenze_metodi
+
+
+#############################################
+# Order-only phony target for sequenze_metodi
+
+build cmake_object_order_depends_target_sequenze_metodi: phony || CMakeFiles/sequenze_metodi.dir
+
+build CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.obj: C_COMPILER__sequenze_metodi_unscanned_Debug C$:/Users/David/Desktop/IA/C/sequenze/Sequenze2.c || cmake_object_order_depends_target_sequenze_metodi
+  DEP_FILE = CMakeFiles\sequenze_metodi.dir\sequenze\Sequenze2.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\sequenze_metodi.dir
+  OBJECT_FILE_DIR = CMakeFiles\sequenze_metodi.dir\sequenze
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target sequenze_metodi
+
+
+#############################################
+# Link the executable sequenze_metodi.exe
+
+build sequenze_metodi.exe: C_EXECUTABLE_LINKER__sequenze_metodi_Debug CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\sequenze_metodi.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = sequenze_metodi.exe
+  TARGET_IMPLIB = libsequenze_metodi.dll.a
+  TARGET_PDB = sequenze_metodi.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -360,6 +393,8 @@ build puntatori2: phony puntatori2.exe
 
 build raddopia: phony raddopia.exe
 
+build sequenze_metodi: phony sequenze_metodi.exe
+
 build struttureintr: phony struttureintr.exe
 
 build who: phony who.exe
@@ -372,7 +407,7 @@ build who: phony who.exe
 #############################################
 # Folder: C:/Users/David/Desktop/IA/C/cmake-build-debug
 
-build all: phony new_target.exe malloc.exe puntatori1.exe puntatori2.exe raddopia.exe punt_mcd.exe struttureintr.exe who.exe
+build all: phony new_target.exe malloc.exe puntatori1.exe puntatori2.exe raddopia.exe punt_mcd.exe struttureintr.exe who.exe sequenze_metodi.exe
 
 # =============================================================================
 # Built-in targets

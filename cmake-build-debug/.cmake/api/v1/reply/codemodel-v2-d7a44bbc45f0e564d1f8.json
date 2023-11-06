@@ -22,7 +22,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -44,7 +45,8 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -90,6 +92,13 @@
 					"id" : "raddopia::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-raddopia-Debug-9853ae652483ac932db3.json",
 					"name" : "raddopia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sequenze_metodi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sequenze_metodi-Debug-4654b2e3067a4524805f.json",
+					"name" : "sequenze_metodi",
 					"projectIndex" : 0
 				},
 				{
