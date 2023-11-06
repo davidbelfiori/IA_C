@@ -16,5 +16,8 @@ add_executable(punt_mcd puntatori/puntatori_mcd.c)
 add_executable(struttureintr strutture/strutture_intro.cpp
         strutture/struttureWho.c)
 add_executable(who strutture/struttureWho.c)
+add_executable(strutture strutture/strutture1.c
+        strutture/strutture1.c)
 add_executable(sequenze_metodi
         sequenze/Sequenze2.c)
+add_executable(liste1 liste/liste1.c)

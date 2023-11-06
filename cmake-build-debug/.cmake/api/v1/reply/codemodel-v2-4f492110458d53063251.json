@@ -20,7 +20,12 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
@@ -40,12 +45,24 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 0,
+					"id" : "liste1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-liste1-Debug-50fa03119eeb45679551.json",
+					"name" : "liste1",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 0,
 					"id" : "malloc::@6890427a1f51a3e7e1df",
@@ -86,6 +103,34 @@
 					"id" : "raddopia::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-raddopia-Debug-6695b141ad7a8b0c710e.json",
 					"name" : "raddopia",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sequenze_metodi::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sequenze_metodi-Debug-4a40872b00261051512c.json",
+					"name" : "sequenze_metodi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "strutture::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-strutture-Debug-3b0a5d98f202fbaecee1.json",
+					"name" : "strutture",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "struttureintr::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-struttureintr-Debug-ced91d8cbfcc478c0dee.json",
+					"name" : "struttureintr",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "who::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-who-Debug-307b53ea4ea3189aba47.json",
+					"name" : "who",
 					"projectIndex" : 0
 				}
 			]

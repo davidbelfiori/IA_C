@@ -1,11 +1,13 @@
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/new_target.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/malloc.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/puntatori1.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/puntatori2.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/raddopia.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/punt_mcd.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/struttureintr.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/who.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/sequenze_metodi.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/David/Desktop/IA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/new_target.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/malloc.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/puntatori1.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/puntatori2.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/raddopia.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/punt_mcd.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/struttureintr.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/who.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/strutture.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/sequenze_metodi.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/liste1.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
