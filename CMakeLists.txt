@@ -21,3 +21,5 @@ add_executable(strutture strutture/strutture1.c
 add_executable(sequenze_metodi
         sequenze/Sequenze2.c)
 add_executable(liste1 liste/liste1.c)
+add_executable(listePlay liste/listeplay.c
+        liste/listeplay.c)

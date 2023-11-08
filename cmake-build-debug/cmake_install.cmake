@@ -1,4 +1,4 @@
-# Install script for directory: /Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C
+# Install script for directory: /Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

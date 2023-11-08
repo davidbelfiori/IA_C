@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/cmake-build-debug/
+cmake_ninja_workdir = /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target new_target
 
@@ -49,19 +49,19 @@ cmake_ninja_workdir = /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/In
 
 build cmake_object_order_depends_target_new_target: phony || CMakeFiles/new_target.dir
 
-build CMakeFiles/new_target.dir/mcd/mcd.c.o: C_COMPILER__new_target_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/mcd/mcd.c || cmake_object_order_depends_target_new_target
+build CMakeFiles/new_target.dir/mcd/mcd.c.o: C_COMPILER__new_target_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/mcd/mcd.c || cmake_object_order_depends_target_new_target
   DEP_FILE = CMakeFiles/new_target.dir/mcd/mcd.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/new_target.dir
   OBJECT_FILE_DIR = CMakeFiles/new_target.dir/mcd
 
-build CMakeFiles/new_target.dir/mcd/main.c.o: C_COMPILER__new_target_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/mcd/main.c || cmake_object_order_depends_target_new_target
+build CMakeFiles/new_target.dir/mcd/main.c.o: C_COMPILER__new_target_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/mcd/main.c || cmake_object_order_depends_target_new_target
   DEP_FILE = CMakeFiles/new_target.dir/mcd/main.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/new_target.dir
   OBJECT_FILE_DIR = CMakeFiles/new_target.dir/mcd
 
-build CMakeFiles/new_target.dir/array/array1.c.o: C_COMPILER__new_target_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/array/array1.c || cmake_object_order_depends_target_new_target
+build CMakeFiles/new_target.dir/array/array1.c.o: C_COMPILER__new_target_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/array/array1.c || cmake_object_order_depends_target_new_target
   DEP_FILE = CMakeFiles/new_target.dir/array/array1.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/new_target.dir
@@ -92,7 +92,7 @@ build new_target: C_EXECUTABLE_LINKER__new_target_Debug CMakeFiles/new_target.di
 
 build cmake_object_order_depends_target_malloc: phony || CMakeFiles/malloc.dir
 
-build CMakeFiles/malloc.dir/puntatori/malloc.c.o: C_COMPILER__malloc_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/malloc.c || cmake_object_order_depends_target_malloc
+build CMakeFiles/malloc.dir/puntatori/malloc.c.o: C_COMPILER__malloc_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/malloc.c || cmake_object_order_depends_target_malloc
   DEP_FILE = CMakeFiles/malloc.dir/puntatori/malloc.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/malloc.dir
@@ -123,7 +123,7 @@ build malloc: C_EXECUTABLE_LINKER__malloc_Debug CMakeFiles/malloc.dir/puntatori/
 
 build cmake_object_order_depends_target_puntatori1: phony || CMakeFiles/puntatori1.dir
 
-build CMakeFiles/puntatori1.dir/puntatori/puntatori1.c.o: C_COMPILER__puntatori1_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori1.c || cmake_object_order_depends_target_puntatori1
+build CMakeFiles/puntatori1.dir/puntatori/puntatori1.c.o: C_COMPILER__puntatori1_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori1.c || cmake_object_order_depends_target_puntatori1
   DEP_FILE = CMakeFiles/puntatori1.dir/puntatori/puntatori1.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/puntatori1.dir
@@ -154,7 +154,7 @@ build puntatori1: C_EXECUTABLE_LINKER__puntatori1_Debug CMakeFiles/puntatori1.di
 
 build cmake_object_order_depends_target_puntatori2: phony || CMakeFiles/puntatori2.dir
 
-build CMakeFiles/puntatori2.dir/puntatori/puntatori2.c.o: C_COMPILER__puntatori2_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori2.c || cmake_object_order_depends_target_puntatori2
+build CMakeFiles/puntatori2.dir/puntatori/puntatori2.c.o: C_COMPILER__puntatori2_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori2.c || cmake_object_order_depends_target_puntatori2
   DEP_FILE = CMakeFiles/puntatori2.dir/puntatori/puntatori2.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/puntatori2.dir
@@ -185,7 +185,7 @@ build puntatori2: C_EXECUTABLE_LINKER__puntatori2_Debug CMakeFiles/puntatori2.di
 
 build cmake_object_order_depends_target_raddopia: phony || CMakeFiles/raddopia.dir
 
-build CMakeFiles/raddopia.dir/puntatori/puntatori_raddoppia.c.o: C_COMPILER__raddopia_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori_raddoppia.c || cmake_object_order_depends_target_raddopia
+build CMakeFiles/raddopia.dir/puntatori/puntatori_raddoppia.c.o: C_COMPILER__raddopia_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori_raddoppia.c || cmake_object_order_depends_target_raddopia
   DEP_FILE = CMakeFiles/raddopia.dir/puntatori/puntatori_raddoppia.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/raddopia.dir
@@ -216,7 +216,7 @@ build raddopia: C_EXECUTABLE_LINKER__raddopia_Debug CMakeFiles/raddopia.dir/punt
 
 build cmake_object_order_depends_target_punt_mcd: phony || CMakeFiles/punt_mcd.dir
 
-build CMakeFiles/punt_mcd.dir/puntatori/puntatori_mcd.c.o: C_COMPILER__punt_mcd_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori_mcd.c || cmake_object_order_depends_target_punt_mcd
+build CMakeFiles/punt_mcd.dir/puntatori/puntatori_mcd.c.o: C_COMPILER__punt_mcd_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/puntatori/puntatori_mcd.c || cmake_object_order_depends_target_punt_mcd
   DEP_FILE = CMakeFiles/punt_mcd.dir/puntatori/puntatori_mcd.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/punt_mcd.dir
@@ -247,13 +247,13 @@ build punt_mcd: C_EXECUTABLE_LINKER__punt_mcd_Debug CMakeFiles/punt_mcd.dir/punt
 
 build cmake_object_order_depends_target_struttureintr: phony || CMakeFiles/struttureintr.dir
 
-build CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.o: CXX_COMPILER__struttureintr_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/strutture_intro.cpp || cmake_object_order_depends_target_struttureintr
+build CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.o: CXX_COMPILER__struttureintr_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/strutture_intro.cpp || cmake_object_order_depends_target_struttureintr
   DEP_FILE = CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.o.d
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/struttureintr.dir
   OBJECT_FILE_DIR = CMakeFiles/struttureintr.dir/strutture
 
-build CMakeFiles/struttureintr.dir/strutture/struttureWho.c.o: C_COMPILER__struttureintr_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/struttureWho.c || cmake_object_order_depends_target_struttureintr
+build CMakeFiles/struttureintr.dir/strutture/struttureWho.c.o: C_COMPILER__struttureintr_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/struttureWho.c || cmake_object_order_depends_target_struttureintr
   DEP_FILE = CMakeFiles/struttureintr.dir/strutture/struttureWho.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/struttureintr.dir
@@ -284,7 +284,7 @@ build struttureintr: CXX_EXECUTABLE_LINKER__struttureintr_Debug CMakeFiles/strut
 
 build cmake_object_order_depends_target_who: phony || CMakeFiles/who.dir
 
-build CMakeFiles/who.dir/strutture/struttureWho.c.o: C_COMPILER__who_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/struttureWho.c || cmake_object_order_depends_target_who
+build CMakeFiles/who.dir/strutture/struttureWho.c.o: C_COMPILER__who_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/struttureWho.c || cmake_object_order_depends_target_who
   DEP_FILE = CMakeFiles/who.dir/strutture/struttureWho.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/who.dir
@@ -315,7 +315,7 @@ build who: C_EXECUTABLE_LINKER__who_Debug CMakeFiles/who.dir/strutture/strutture
 
 build cmake_object_order_depends_target_strutture: phony || CMakeFiles/strutture.dir
 
-build CMakeFiles/strutture.dir/strutture/strutture1.c.o: C_COMPILER__strutture_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/strutture1.c || cmake_object_order_depends_target_strutture
+build CMakeFiles/strutture.dir/strutture/strutture1.c.o: C_COMPILER__strutture_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/strutture/strutture1.c || cmake_object_order_depends_target_strutture
   DEP_FILE = CMakeFiles/strutture.dir/strutture/strutture1.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/strutture.dir
@@ -346,7 +346,7 @@ build strutture: C_EXECUTABLE_LINKER__strutture_Debug CMakeFiles/strutture.dir/s
 
 build cmake_object_order_depends_target_sequenze_metodi: phony || CMakeFiles/sequenze_metodi.dir
 
-build CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.o: C_COMPILER__sequenze_metodi_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/sequenze/Sequenze2.c || cmake_object_order_depends_target_sequenze_metodi
+build CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.o: C_COMPILER__sequenze_metodi_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/sequenze/Sequenze2.c || cmake_object_order_depends_target_sequenze_metodi
   DEP_FILE = CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/sequenze_metodi.dir
@@ -377,7 +377,7 @@ build sequenze_metodi: C_EXECUTABLE_LINKER__sequenze_metodi_Debug CMakeFiles/seq
 
 build cmake_object_order_depends_target_liste1: phony || CMakeFiles/liste1.dir
 
-build CMakeFiles/liste1.dir/liste/liste1.c.o: C_COMPILER__liste1_unscanned_Debug /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/liste/liste1.c || cmake_object_order_depends_target_liste1
+build CMakeFiles/liste1.dir/liste/liste1.c.o: C_COMPILER__liste1_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/liste/liste1.c || cmake_object_order_depends_target_liste1
   DEP_FILE = CMakeFiles/liste1.dir/liste/liste1.c.o.d
   FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/liste1.dir
@@ -399,12 +399,43 @@ build liste1: C_EXECUTABLE_LINKER__liste1_Debug CMakeFiles/liste1.dir/liste/list
   TARGET_FILE = liste1
   TARGET_PDB = liste1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target listePlay
+
+
+#############################################
+# Order-only phony target for listePlay
+
+build cmake_object_order_depends_target_listePlay: phony || CMakeFiles/listePlay.dir
+
+build CMakeFiles/listePlay.dir/liste/listeplay.c.o: C_COMPILER__listePlay_unscanned_Debug /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/liste/listeplay.c || cmake_object_order_depends_target_listePlay
+  DEP_FILE = CMakeFiles/listePlay.dir/liste/listeplay.c.o.d
+  FLAGS = -g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/listePlay.dir
+  OBJECT_FILE_DIR = CMakeFiles/listePlay.dir/liste
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listePlay
+
+
+#############################################
+# Link the executable listePlay
+
+build listePlay: C_EXECUTABLE_LINKER__listePlay_Debug CMakeFiles/listePlay.dir/liste/listeplay.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7
+  OBJECT_DIR = CMakeFiles/listePlay.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = listePlay
+  TARGET_PDB = listePlay.dbg
+
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd "/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -415,7 +446,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C" -B"/Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug"
+  COMMAND = cd "/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug" && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C" -B"/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -431,9 +462,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /Users/davidbelfiori/Desktop/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug
+# Folder: /Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug
 
-build all: phony new_target malloc puntatori1 puntatori2 raddopia punt_mcd struttureintr who strutture sequenze_metodi liste1
+build all: phony new_target malloc puntatori1 puntatori2 raddopia punt_mcd struttureintr who strutture sequenze_metodi liste1 listePlay
 
 # =============================================================================
 # Built-in targets
@@ -442,14 +473,14 @@ build all: phony new_target malloc puntatori1 puntatori2 raddopia punt_mcd strut
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/davidbelfiori/Desktop/UTV/Triennale/2$ anno/IA/C/Introduzione_C/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
+build /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/Platform/UnixPaths.cmake /Users/davidbelfiori/Documents/UTV/Triennale/2$ anno/IA/C/Introduzione_C/CMakeLists.txt CMakeCache.txt CMakeFiles/3.26.4/CMakeCCompiler.cmake CMakeFiles/3.26.4/CMakeCXXCompiler.cmake CMakeFiles/3.26.4/CMakeSystem.cmake: phony
 
 
 #############################################
