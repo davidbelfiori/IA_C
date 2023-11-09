@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "who"
+			"path" : "new_target.exe"
+		},
+		{
+			"path" : "new_target.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +27,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 18,
+				"line" : 5,
 				"parent" : 0
 			}
 		]
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=12.7 -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu11 -fdiagnostics-color=always"
 				}
 			],
 			"language" : "C",
@@ -49,11 +52,13 @@
 			},
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				2,
+				3
 			]
 		}
 	],
-	"id" : "who::@6890427a1f51a3e7e1df",
+	"id" : "new_target::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -65,12 +70,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "C"
 	},
-	"name" : "who",
-	"nameOnDisk" : "who",
+	"name" : "new_target",
+	"nameOnDisk" : "new_target.exe",
 	"paths" : 
 	{
 		"build" : ".",
@@ -82,7 +91,16 @@
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
-				0
+				0,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1
 			]
 		}
 	],
@@ -91,7 +109,24 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "strutture/struttureWho.c",
+			"path" : "mcd/mcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "mcd/mcd.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mcd/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "array/array1.c",
 			"sourceGroupIndex" : 0
 		}
 	],

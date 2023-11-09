@@ -17,7 +17,7 @@
 rule C_COMPILER__new_target_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -25,7 +25,7 @@ rule C_COMPILER__new_target_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__new_target_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -36,7 +36,7 @@ rule C_EXECUTABLE_LINKER__new_target_Debug
 rule C_COMPILER__malloc_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -44,7 +44,7 @@ rule C_COMPILER__malloc_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__malloc_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -55,7 +55,7 @@ rule C_EXECUTABLE_LINKER__malloc_Debug
 rule C_COMPILER__puntatori1_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -63,7 +63,7 @@ rule C_COMPILER__puntatori1_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__puntatori1_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -74,7 +74,7 @@ rule C_EXECUTABLE_LINKER__puntatori1_Debug
 rule C_COMPILER__puntatori2_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -82,7 +82,7 @@ rule C_COMPILER__puntatori2_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__puntatori2_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -93,7 +93,7 @@ rule C_EXECUTABLE_LINKER__puntatori2_Debug
 rule C_COMPILER__raddopia_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -101,7 +101,7 @@ rule C_COMPILER__raddopia_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__raddopia_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -112,7 +112,7 @@ rule C_EXECUTABLE_LINKER__raddopia_Debug
 rule C_COMPILER__punt_mcd_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -120,7 +120,7 @@ rule C_COMPILER__punt_mcd_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__punt_mcd_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -131,7 +131,7 @@ rule C_EXECUTABLE_LINKER__punt_mcd_Debug
 rule C_COMPILER__struttureintr_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -141,7 +141,7 @@ rule C_COMPILER__struttureintr_unscanned_Debug
 rule CXX_COMPILER__struttureintr_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/c++ $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building CXX object $out
 
 
@@ -149,7 +149,7 @@ rule CXX_COMPILER__struttureintr_unscanned_Debug
 # Rule for linking CXX executable.
 
 rule CXX_EXECUTABLE_LINKER__struttureintr_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/c++ $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\g++.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
 
@@ -160,7 +160,7 @@ rule CXX_EXECUTABLE_LINKER__struttureintr_Debug
 rule C_COMPILER__who_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -168,7 +168,7 @@ rule C_COMPILER__who_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__who_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -179,7 +179,7 @@ rule C_EXECUTABLE_LINKER__who_Debug
 rule C_COMPILER__strutture_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -187,7 +187,7 @@ rule C_COMPILER__strutture_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__strutture_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -198,7 +198,7 @@ rule C_EXECUTABLE_LINKER__strutture_Debug
 rule C_COMPILER__sequenze_metodi_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -206,7 +206,7 @@ rule C_COMPILER__sequenze_metodi_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__sequenze_metodi_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -217,7 +217,7 @@ rule C_EXECUTABLE_LINKER__sequenze_metodi_Debug
 rule C_COMPILER__liste1_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -225,7 +225,7 @@ rule C_COMPILER__liste1_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__liste1_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -236,7 +236,7 @@ rule C_EXECUTABLE_LINKER__liste1_Debug
 rule C_COMPILER__listePlay_unscanned_Debug
   depfile = $DEP_FILE
   deps = gcc
-  command = /Library/Developer/CommandLineTools/usr/bin/cc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
   description = Building C object $out
 
 
@@ -244,7 +244,45 @@ rule C_COMPILER__listePlay_unscanned_Debug
 # Rule for linking C executable.
 
 rule C_EXECUTABLE_LINKER__listePlay_Debug
-  command = $PRE_LINK && /Library/Developer/CommandLineTools/usr/bin/cc $FLAGS -Wl,-search_paths_first -Wl,-headerpad_max_install_names $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__liste2_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__liste2_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
+  description = Linking C executable $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER__DoubleLinked_unscanned_Debug
+  depfile = $DEP_FILE
+  deps = gcc
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C executable.
+
+rule C_EXECUTABLE_LINKER__DoubleLinked_Debug
+  command = cmd.exe /C "$PRE_LINK && C:\Users\David\AppData\Local\Programs\CLion\bin\mingw\bin\gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE -Wl,--out-implib,$TARGET_IMPLIB -Wl,--major-image-version,0,--minor-image-version,0 $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
 
@@ -261,7 +299,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S"/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C" -B"/Users/davidbelfiori/Documents/UTV/Triennale/2 anno/IA/C/Introduzione_C/cmake-build-debug"
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -SC:\Users\David\Desktop\IA\C -BC:\Users\David\Desktop\IA\C\cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -270,7 +308,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /Applications/CLion.app/Contents/bin/ninja/mac/ninja $FILE_ARG -t clean $TARGETS
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -278,6 +316,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /Applications/CLion.app/Contents/bin/ninja/mac/ninja -t targets
+  command = C:\Users\David\AppData\Local\Programs\CLion\bin\ninja\win\x64\ninja.exe -t targets
   description = All primary targets available:
 

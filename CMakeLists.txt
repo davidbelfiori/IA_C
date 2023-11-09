@@ -23,3 +23,6 @@ add_executable(sequenze_metodi
 add_executable(liste1 liste/liste1.c)
 add_executable(listePlay liste/listeplay.c
         liste/listeplay.c)
+add_executable(liste2 liste/liste2.c)
+add_executable(DoubleLinked liste/DoubleLinked.c
+        liste/DoubleLinked.c)
