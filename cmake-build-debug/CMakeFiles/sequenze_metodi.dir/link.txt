@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\sequenze_metodi.dir/objects.a
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\ar.exe qc CMakeFiles\sequenze_metodi.dir/objects.a @CMakeFiles\sequenze_metodi.dir\objects1.rsp
+C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\sequenze_metodi.dir/objects.a -Wl,--no-whole-archive -o sequenze_metodi.exe -Wl,--out-implib,libsequenze_metodi.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\sequenze_metodi.dir\linkLibs.rsp
