@@ -29,3 +29,6 @@ add_executable(DoubleLinked liste/DoubleLinked.c
 add_executable(listeDoppie liste/listeDoppie.c)
 add_executable(insertionsorting oridnamento/insertion_sorting.c
         oridnamento/insertion_sorting.c)
+add_executable(alberi1 alberiBR/alberi1.c)
+add_executable(quicksorting oridnamento/quick_sorting.c
+        oridnamento/quick_sorting.c)

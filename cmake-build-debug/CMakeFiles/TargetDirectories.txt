@@ -14,5 +14,7 @@ C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/liste2.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/DoubleLinked.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/listeDoppie.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/insertionsorting.dir
+C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/alberi1.dir
+C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/quicksorting.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

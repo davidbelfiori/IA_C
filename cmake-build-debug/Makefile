@@ -323,6 +323,56 @@ insertionsorting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/build
 .PHONY : insertionsorting/fast
 
+#=============================================================================
+# Target rules for targets named alberi1
+
+# Build rule for target.
+alberi1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 alberi1
+.PHONY : alberi1
+
+# fast build rule for target.
+alberi1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alberi1.dir\build.make CMakeFiles/alberi1.dir/build
+.PHONY : alberi1/fast
+
+#=============================================================================
+# Target rules for targets named quicksorting
+
+# Build rule for target.
+quicksorting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 quicksorting
+.PHONY : quicksorting
+
+# fast build rule for target.
+quicksorting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/build
+.PHONY : quicksorting/fast
+
+alberiBR/alberi1.obj: alberiBR/alberi1.c.obj
+.PHONY : alberiBR/alberi1.obj
+
+# target to build an object file
+alberiBR/alberi1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alberi1.dir\build.make CMakeFiles/alberi1.dir/alberiBR/alberi1.c.obj
+.PHONY : alberiBR/alberi1.c.obj
+
+alberiBR/alberi1.i: alberiBR/alberi1.c.i
+.PHONY : alberiBR/alberi1.i
+
+# target to preprocess a source file
+alberiBR/alberi1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alberi1.dir\build.make CMakeFiles/alberi1.dir/alberiBR/alberi1.c.i
+.PHONY : alberiBR/alberi1.c.i
+
+alberiBR/alberi1.s: alberiBR/alberi1.c.s
+.PHONY : alberiBR/alberi1.s
+
+# target to generate assembly for a file
+alberiBR/alberi1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\alberi1.dir\build.make CMakeFiles/alberi1.dir/alberiBR/alberi1.c.s
+.PHONY : alberiBR/alberi1.c.s
+
 array/array1.obj: array/array1.c.obj
 .PHONY : array/array1.obj
 
@@ -538,6 +588,30 @@ oridnamento/insertion_sorting.s: oridnamento/insertion_sorting.c.s
 oridnamento/insertion_sorting.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/oridnamento/insertion_sorting.c.s
 .PHONY : oridnamento/insertion_sorting.c.s
+
+oridnamento/quick_sorting.obj: oridnamento/quick_sorting.c.obj
+.PHONY : oridnamento/quick_sorting.obj
+
+# target to build an object file
+oridnamento/quick_sorting.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/oridnamento/quick_sorting.c.obj
+.PHONY : oridnamento/quick_sorting.c.obj
+
+oridnamento/quick_sorting.i: oridnamento/quick_sorting.c.i
+.PHONY : oridnamento/quick_sorting.i
+
+# target to preprocess a source file
+oridnamento/quick_sorting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/oridnamento/quick_sorting.c.i
+.PHONY : oridnamento/quick_sorting.c.i
+
+oridnamento/quick_sorting.s: oridnamento/quick_sorting.c.s
+.PHONY : oridnamento/quick_sorting.s
+
+# target to generate assembly for a file
+oridnamento/quick_sorting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/oridnamento/quick_sorting.c.s
+.PHONY : oridnamento/quick_sorting.c.s
 
 puntatori/malloc.obj: puntatori/malloc.c.obj
 .PHONY : puntatori/malloc.obj
@@ -767,6 +841,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... DoubleLinked
+	@echo ... alberi1
 	@echo ... insertionsorting
 	@echo ... liste1
 	@echo ... liste2
@@ -777,11 +852,15 @@ help:
 	@echo ... punt_mcd
 	@echo ... puntatori1
 	@echo ... puntatori2
+	@echo ... quicksorting
 	@echo ... raddopia
 	@echo ... sequenze_metodi
 	@echo ... strutture
 	@echo ... struttureintr
 	@echo ... who
+	@echo ... alberiBR/alberi1.obj
+	@echo ... alberiBR/alberi1.i
+	@echo ... alberiBR/alberi1.s
 	@echo ... array/array1.obj
 	@echo ... array/array1.i
 	@echo ... array/array1.s
@@ -809,6 +888,9 @@ help:
 	@echo ... oridnamento/insertion_sorting.obj
 	@echo ... oridnamento/insertion_sorting.i
 	@echo ... oridnamento/insertion_sorting.s
+	@echo ... oridnamento/quick_sorting.obj
+	@echo ... oridnamento/quick_sorting.i
+	@echo ... oridnamento/quick_sorting.s
 	@echo ... puntatori/malloc.obj
 	@echo ... puntatori/malloc.i
 	@echo ... puntatori/malloc.s
