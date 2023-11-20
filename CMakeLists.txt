@@ -26,3 +26,6 @@ add_executable(listePlay liste/listeplay.c
 add_executable(liste2 liste/liste2.c)
 add_executable(DoubleLinked liste/DoubleLinked.c
         liste/DoubleLinked.c)
+add_executable(listeDoppie liste/listeDoppie.c)
+add_executable(insertionsorting oridnamento/insertion_sorting.c
+        oridnamento/insertion_sorting.c)

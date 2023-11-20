@@ -520,6 +520,39 @@ build DoubleLinked.exe: C_EXECUTABLE_LINKER__DoubleLinked_Debug CMakeFiles/Doubl
   TARGET_IMPLIB = libDoubleLinked.dll.a
   TARGET_PDB = DoubleLinked.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target listeDoppie
+
+
+#############################################
+# Order-only phony target for listeDoppie
+
+build cmake_object_order_depends_target_listeDoppie: phony || CMakeFiles/listeDoppie.dir
+
+build CMakeFiles/listeDoppie.dir/liste/listeDoppie.c.obj: C_COMPILER__listeDoppie_unscanned_Debug C$:/Users/David/Desktop/IA/C/liste/listeDoppie.c || cmake_object_order_depends_target_listeDoppie
+  DEP_FILE = CMakeFiles\listeDoppie.dir\liste\listeDoppie.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\listeDoppie.dir
+  OBJECT_FILE_DIR = CMakeFiles\listeDoppie.dir\liste
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target listeDoppie
+
+
+#############################################
+# Link the executable listeDoppie.exe
+
+build listeDoppie.exe: C_EXECUTABLE_LINKER__listeDoppie_Debug CMakeFiles/listeDoppie.dir/liste/listeDoppie.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\listeDoppie.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = listeDoppie.exe
+  TARGET_IMPLIB = liblisteDoppie.dll.a
+  TARGET_PDB = listeDoppie.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -552,6 +585,8 @@ build liste1: phony liste1.exe
 
 build liste2: phony liste2.exe
 
+build listeDoppie: phony listeDoppie.exe
+
 build listePlay: phony listePlay.exe
 
 build malloc: phony malloc.exe
@@ -582,7 +617,7 @@ build who: phony who.exe
 #############################################
 # Folder: C:/Users/David/Desktop/IA/C/cmake-build-debug
 
-build all: phony new_target.exe malloc.exe puntatori1.exe puntatori2.exe raddopia.exe punt_mcd.exe struttureintr.exe who.exe strutture.exe sequenze_metodi.exe liste1.exe listePlay.exe liste2.exe DoubleLinked.exe
+build all: phony new_target.exe malloc.exe puntatori1.exe puntatori2.exe raddopia.exe punt_mcd.exe struttureintr.exe who.exe strutture.exe sequenze_metodi.exe liste1.exe listePlay.exe liste2.exe DoubleLinked.exe listeDoppie.exe
 
 # =============================================================================
 # Built-in targets

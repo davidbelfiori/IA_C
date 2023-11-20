@@ -47,19 +47,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = C:\Users\David\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe"
 
 # The command to remove a file.
-RM = C:\Users\David\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\David\Desktop\IA
+CMAKE_SOURCE_DIR = C:\Users\David\Documents\Uni\IA\C
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\David\Desktop\IA\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\David\Documents\Uni\IA\C\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -67,7 +67,7 @@ CMAKE_BINARY_DIR = C:\Users\David\Desktop\IA\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	C:\Users\David\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -77,7 +77,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	C:\Users\David\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Desktop\IA\cmake-build-debug\CMakeFiles C:\Users\David\Desktop\IA\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Desktop\IA\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -193,6 +193,136 @@ punt_mcd/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\punt_mcd.dir\build.make CMakeFiles/punt_mcd.dir/build
 .PHONY : punt_mcd/fast
 
+#=============================================================================
+# Target rules for targets named struttureintr
+
+# Build rule for target.
+struttureintr: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 struttureintr
+.PHONY : struttureintr
+
+# fast build rule for target.
+struttureintr/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/build
+.PHONY : struttureintr/fast
+
+#=============================================================================
+# Target rules for targets named who
+
+# Build rule for target.
+who: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 who
+.PHONY : who
+
+# fast build rule for target.
+who/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\who.dir\build.make CMakeFiles/who.dir/build
+.PHONY : who/fast
+
+#=============================================================================
+# Target rules for targets named strutture
+
+# Build rule for target.
+strutture: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 strutture
+.PHONY : strutture
+
+# fast build rule for target.
+strutture/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strutture.dir\build.make CMakeFiles/strutture.dir/build
+.PHONY : strutture/fast
+
+#=============================================================================
+# Target rules for targets named sequenze_metodi
+
+# Build rule for target.
+sequenze_metodi: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 sequenze_metodi
+.PHONY : sequenze_metodi
+
+# fast build rule for target.
+sequenze_metodi/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequenze_metodi.dir\build.make CMakeFiles/sequenze_metodi.dir/build
+.PHONY : sequenze_metodi/fast
+
+#=============================================================================
+# Target rules for targets named liste1
+
+# Build rule for target.
+liste1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 liste1
+.PHONY : liste1
+
+# fast build rule for target.
+liste1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste1.dir\build.make CMakeFiles/liste1.dir/build
+.PHONY : liste1/fast
+
+#=============================================================================
+# Target rules for targets named listePlay
+
+# Build rule for target.
+listePlay: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 listePlay
+.PHONY : listePlay
+
+# fast build rule for target.
+listePlay/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listePlay.dir\build.make CMakeFiles/listePlay.dir/build
+.PHONY : listePlay/fast
+
+#=============================================================================
+# Target rules for targets named liste2
+
+# Build rule for target.
+liste2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 liste2
+.PHONY : liste2
+
+# fast build rule for target.
+liste2/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste2.dir\build.make CMakeFiles/liste2.dir/build
+.PHONY : liste2/fast
+
+#=============================================================================
+# Target rules for targets named DoubleLinked
+
+# Build rule for target.
+DoubleLinked: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 DoubleLinked
+.PHONY : DoubleLinked
+
+# fast build rule for target.
+DoubleLinked/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinked.dir\build.make CMakeFiles/DoubleLinked.dir/build
+.PHONY : DoubleLinked/fast
+
+#=============================================================================
+# Target rules for targets named listeDoppie
+
+# Build rule for target.
+listeDoppie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 listeDoppie
+.PHONY : listeDoppie
+
+# fast build rule for target.
+listeDoppie/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listeDoppie.dir\build.make CMakeFiles/listeDoppie.dir/build
+.PHONY : listeDoppie/fast
+
+#=============================================================================
+# Target rules for targets named insertionsorting
+
+# Build rule for target.
+insertionsorting: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 insertionsorting
+.PHONY : insertionsorting
+
+# fast build rule for target.
+insertionsorting/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/build
+.PHONY : insertionsorting/fast
+
 array/array1.obj: array/array1.c.obj
 .PHONY : array/array1.obj
 
@@ -216,6 +346,126 @@ array/array1.s: array/array1.c.s
 array/array1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new_target.dir\build.make CMakeFiles/new_target.dir/array/array1.c.s
 .PHONY : array/array1.c.s
+
+liste/DoubleLinked.obj: liste/DoubleLinked.c.obj
+.PHONY : liste/DoubleLinked.obj
+
+# target to build an object file
+liste/DoubleLinked.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinked.dir\build.make CMakeFiles/DoubleLinked.dir/liste/DoubleLinked.c.obj
+.PHONY : liste/DoubleLinked.c.obj
+
+liste/DoubleLinked.i: liste/DoubleLinked.c.i
+.PHONY : liste/DoubleLinked.i
+
+# target to preprocess a source file
+liste/DoubleLinked.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinked.dir\build.make CMakeFiles/DoubleLinked.dir/liste/DoubleLinked.c.i
+.PHONY : liste/DoubleLinked.c.i
+
+liste/DoubleLinked.s: liste/DoubleLinked.c.s
+.PHONY : liste/DoubleLinked.s
+
+# target to generate assembly for a file
+liste/DoubleLinked.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\DoubleLinked.dir\build.make CMakeFiles/DoubleLinked.dir/liste/DoubleLinked.c.s
+.PHONY : liste/DoubleLinked.c.s
+
+liste/Liste2.obj: liste/Liste2.c.obj
+.PHONY : liste/Liste2.obj
+
+# target to build an object file
+liste/Liste2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste2.dir\build.make CMakeFiles/liste2.dir/liste/Liste2.c.obj
+.PHONY : liste/Liste2.c.obj
+
+liste/Liste2.i: liste/Liste2.c.i
+.PHONY : liste/Liste2.i
+
+# target to preprocess a source file
+liste/Liste2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste2.dir\build.make CMakeFiles/liste2.dir/liste/Liste2.c.i
+.PHONY : liste/Liste2.c.i
+
+liste/Liste2.s: liste/Liste2.c.s
+.PHONY : liste/Liste2.s
+
+# target to generate assembly for a file
+liste/Liste2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste2.dir\build.make CMakeFiles/liste2.dir/liste/Liste2.c.s
+.PHONY : liste/Liste2.c.s
+
+liste/liste1.obj: liste/liste1.c.obj
+.PHONY : liste/liste1.obj
+
+# target to build an object file
+liste/liste1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste1.dir\build.make CMakeFiles/liste1.dir/liste/liste1.c.obj
+.PHONY : liste/liste1.c.obj
+
+liste/liste1.i: liste/liste1.c.i
+.PHONY : liste/liste1.i
+
+# target to preprocess a source file
+liste/liste1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste1.dir\build.make CMakeFiles/liste1.dir/liste/liste1.c.i
+.PHONY : liste/liste1.c.i
+
+liste/liste1.s: liste/liste1.c.s
+.PHONY : liste/liste1.s
+
+# target to generate assembly for a file
+liste/liste1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste1.dir\build.make CMakeFiles/liste1.dir/liste/liste1.c.s
+.PHONY : liste/liste1.c.s
+
+liste/listeDoppie.obj: liste/listeDoppie.c.obj
+.PHONY : liste/listeDoppie.obj
+
+# target to build an object file
+liste/listeDoppie.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listeDoppie.dir\build.make CMakeFiles/listeDoppie.dir/liste/listeDoppie.c.obj
+.PHONY : liste/listeDoppie.c.obj
+
+liste/listeDoppie.i: liste/listeDoppie.c.i
+.PHONY : liste/listeDoppie.i
+
+# target to preprocess a source file
+liste/listeDoppie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listeDoppie.dir\build.make CMakeFiles/listeDoppie.dir/liste/listeDoppie.c.i
+.PHONY : liste/listeDoppie.c.i
+
+liste/listeDoppie.s: liste/listeDoppie.c.s
+.PHONY : liste/listeDoppie.s
+
+# target to generate assembly for a file
+liste/listeDoppie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listeDoppie.dir\build.make CMakeFiles/listeDoppie.dir/liste/listeDoppie.c.s
+.PHONY : liste/listeDoppie.c.s
+
+liste/listeplay.obj: liste/listeplay.c.obj
+.PHONY : liste/listeplay.obj
+
+# target to build an object file
+liste/listeplay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listePlay.dir\build.make CMakeFiles/listePlay.dir/liste/listeplay.c.obj
+.PHONY : liste/listeplay.c.obj
+
+liste/listeplay.i: liste/listeplay.c.i
+.PHONY : liste/listeplay.i
+
+# target to preprocess a source file
+liste/listeplay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listePlay.dir\build.make CMakeFiles/listePlay.dir/liste/listeplay.c.i
+.PHONY : liste/listeplay.c.i
+
+liste/listeplay.s: liste/listeplay.c.s
+.PHONY : liste/listeplay.s
+
+# target to generate assembly for a file
+liste/listeplay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\listePlay.dir\build.make CMakeFiles/listePlay.dir/liste/listeplay.c.s
+.PHONY : liste/listeplay.c.s
 
 mcd/main.obj: mcd/main.c.obj
 .PHONY : mcd/main.obj
@@ -264,6 +514,30 @@ mcd/mcd.s: mcd/mcd.c.s
 mcd/mcd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new_target.dir\build.make CMakeFiles/new_target.dir/mcd/mcd.c.s
 .PHONY : mcd/mcd.c.s
+
+oridnamento/insertion_sorting.obj: oridnamento/insertion_sorting.c.obj
+.PHONY : oridnamento/insertion_sorting.obj
+
+# target to build an object file
+oridnamento/insertion_sorting.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/oridnamento/insertion_sorting.c.obj
+.PHONY : oridnamento/insertion_sorting.c.obj
+
+oridnamento/insertion_sorting.i: oridnamento/insertion_sorting.c.i
+.PHONY : oridnamento/insertion_sorting.i
+
+# target to preprocess a source file
+oridnamento/insertion_sorting.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/oridnamento/insertion_sorting.c.i
+.PHONY : oridnamento/insertion_sorting.c.i
+
+oridnamento/insertion_sorting.s: oridnamento/insertion_sorting.c.s
+.PHONY : oridnamento/insertion_sorting.s
+
+# target to generate assembly for a file
+oridnamento/insertion_sorting.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/oridnamento/insertion_sorting.c.s
+.PHONY : oridnamento/insertion_sorting.c.s
 
 puntatori/malloc.obj: puntatori/malloc.c.obj
 .PHONY : puntatori/malloc.obj
@@ -385,6 +659,105 @@ puntatori/puntatori_raddoppia.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\raddopia.dir\build.make CMakeFiles/raddopia.dir/puntatori/puntatori_raddoppia.c.s
 .PHONY : puntatori/puntatori_raddoppia.c.s
 
+sequenze/Sequenze2.obj: sequenze/Sequenze2.c.obj
+.PHONY : sequenze/Sequenze2.obj
+
+# target to build an object file
+sequenze/Sequenze2.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequenze_metodi.dir\build.make CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.obj
+.PHONY : sequenze/Sequenze2.c.obj
+
+sequenze/Sequenze2.i: sequenze/Sequenze2.c.i
+.PHONY : sequenze/Sequenze2.i
+
+# target to preprocess a source file
+sequenze/Sequenze2.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequenze_metodi.dir\build.make CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.i
+.PHONY : sequenze/Sequenze2.c.i
+
+sequenze/Sequenze2.s: sequenze/Sequenze2.c.s
+.PHONY : sequenze/Sequenze2.s
+
+# target to generate assembly for a file
+sequenze/Sequenze2.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequenze_metodi.dir\build.make CMakeFiles/sequenze_metodi.dir/sequenze/Sequenze2.c.s
+.PHONY : sequenze/Sequenze2.c.s
+
+strutture/strutture1.obj: strutture/strutture1.c.obj
+.PHONY : strutture/strutture1.obj
+
+# target to build an object file
+strutture/strutture1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strutture.dir\build.make CMakeFiles/strutture.dir/strutture/strutture1.c.obj
+.PHONY : strutture/strutture1.c.obj
+
+strutture/strutture1.i: strutture/strutture1.c.i
+.PHONY : strutture/strutture1.i
+
+# target to preprocess a source file
+strutture/strutture1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strutture.dir\build.make CMakeFiles/strutture.dir/strutture/strutture1.c.i
+.PHONY : strutture/strutture1.c.i
+
+strutture/strutture1.s: strutture/strutture1.c.s
+.PHONY : strutture/strutture1.s
+
+# target to generate assembly for a file
+strutture/strutture1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\strutture.dir\build.make CMakeFiles/strutture.dir/strutture/strutture1.c.s
+.PHONY : strutture/strutture1.c.s
+
+strutture/struttureWho.obj: strutture/struttureWho.c.obj
+.PHONY : strutture/struttureWho.obj
+
+# target to build an object file
+strutture/struttureWho.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/strutture/struttureWho.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\who.dir\build.make CMakeFiles/who.dir/strutture/struttureWho.c.obj
+.PHONY : strutture/struttureWho.c.obj
+
+strutture/struttureWho.i: strutture/struttureWho.c.i
+.PHONY : strutture/struttureWho.i
+
+# target to preprocess a source file
+strutture/struttureWho.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/strutture/struttureWho.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\who.dir\build.make CMakeFiles/who.dir/strutture/struttureWho.c.i
+.PHONY : strutture/struttureWho.c.i
+
+strutture/struttureWho.s: strutture/struttureWho.c.s
+.PHONY : strutture/struttureWho.s
+
+# target to generate assembly for a file
+strutture/struttureWho.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/strutture/struttureWho.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\who.dir\build.make CMakeFiles/who.dir/strutture/struttureWho.c.s
+.PHONY : strutture/struttureWho.c.s
+
+strutture/strutture_intro.obj: strutture/strutture_intro.cpp.obj
+.PHONY : strutture/strutture_intro.obj
+
+# target to build an object file
+strutture/strutture_intro.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.obj
+.PHONY : strutture/strutture_intro.cpp.obj
+
+strutture/strutture_intro.i: strutture/strutture_intro.cpp.i
+.PHONY : strutture/strutture_intro.i
+
+# target to preprocess a source file
+strutture/strutture_intro.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.i
+.PHONY : strutture/strutture_intro.cpp.i
+
+strutture/strutture_intro.s: strutture/strutture_intro.cpp.s
+.PHONY : strutture/strutture_intro.s
+
+# target to generate assembly for a file
+strutture/strutture_intro.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/strutture/strutture_intro.cpp.s
+.PHONY : strutture/strutture_intro.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -393,21 +766,49 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... DoubleLinked
+	@echo ... insertionsorting
+	@echo ... liste1
+	@echo ... liste2
+	@echo ... listeDoppie
+	@echo ... listePlay
 	@echo ... malloc
 	@echo ... new_target
 	@echo ... punt_mcd
 	@echo ... puntatori1
 	@echo ... puntatori2
 	@echo ... raddopia
+	@echo ... sequenze_metodi
+	@echo ... strutture
+	@echo ... struttureintr
+	@echo ... who
 	@echo ... array/array1.obj
 	@echo ... array/array1.i
 	@echo ... array/array1.s
+	@echo ... liste/DoubleLinked.obj
+	@echo ... liste/DoubleLinked.i
+	@echo ... liste/DoubleLinked.s
+	@echo ... liste/Liste2.obj
+	@echo ... liste/Liste2.i
+	@echo ... liste/Liste2.s
+	@echo ... liste/liste1.obj
+	@echo ... liste/liste1.i
+	@echo ... liste/liste1.s
+	@echo ... liste/listeDoppie.obj
+	@echo ... liste/listeDoppie.i
+	@echo ... liste/listeDoppie.s
+	@echo ... liste/listeplay.obj
+	@echo ... liste/listeplay.i
+	@echo ... liste/listeplay.s
 	@echo ... mcd/main.obj
 	@echo ... mcd/main.i
 	@echo ... mcd/main.s
 	@echo ... mcd/mcd.obj
 	@echo ... mcd/mcd.i
 	@echo ... mcd/mcd.s
+	@echo ... oridnamento/insertion_sorting.obj
+	@echo ... oridnamento/insertion_sorting.i
+	@echo ... oridnamento/insertion_sorting.s
 	@echo ... puntatori/malloc.obj
 	@echo ... puntatori/malloc.i
 	@echo ... puntatori/malloc.s
@@ -423,6 +824,18 @@ help:
 	@echo ... puntatori/puntatori_raddoppia.obj
 	@echo ... puntatori/puntatori_raddoppia.i
 	@echo ... puntatori/puntatori_raddoppia.s
+	@echo ... sequenze/Sequenze2.obj
+	@echo ... sequenze/Sequenze2.i
+	@echo ... sequenze/Sequenze2.s
+	@echo ... strutture/strutture1.obj
+	@echo ... strutture/strutture1.i
+	@echo ... strutture/strutture1.s
+	@echo ... strutture/struttureWho.obj
+	@echo ... strutture/struttureWho.i
+	@echo ... strutture/struttureWho.s
+	@echo ... strutture/strutture_intro.obj
+	@echo ... strutture/strutture_intro.i
+	@echo ... strutture/strutture_intro.s
 .PHONY : help
 
 
