@@ -32,3 +32,6 @@ add_executable(insertionsorting oridnamento/insertion_sorting.c
 add_executable(alberi1 alberiBR/alberi1.c)
 add_executable(quicksorting oridnamento/quick_sorting.c
         oridnamento/quick_sorting.c)
+add_executable(coeffBin programmazioneDinamica/coefficenteBinomiale.c
+        programmazioneDinamica/coefficenteBinomiale.c)
+add_executable(fibonacci programmazioneDinamica/fibonacciAlg.c)

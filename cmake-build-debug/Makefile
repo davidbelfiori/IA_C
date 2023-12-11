@@ -349,6 +349,32 @@ quicksorting/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/build
 .PHONY : quicksorting/fast
 
+#=============================================================================
+# Target rules for targets named coeffBin
+
+# Build rule for target.
+coeffBin: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 coeffBin
+.PHONY : coeffBin
+
+# fast build rule for target.
+coeffBin/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/build
+.PHONY : coeffBin/fast
+
+#=============================================================================
+# Target rules for targets named fibonacci
+
+# Build rule for target.
+fibonacci: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 fibonacci
+.PHONY : fibonacci
+
+# fast build rule for target.
+fibonacci/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
+.PHONY : fibonacci/fast
+
 alberiBR/alberi1.obj: alberiBR/alberi1.c.obj
 .PHONY : alberiBR/alberi1.obj
 
@@ -613,6 +639,54 @@ oridnamento/quick_sorting.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/oridnamento/quick_sorting.c.s
 .PHONY : oridnamento/quick_sorting.c.s
 
+programmazioneDinamica/coefficenteBinomiale.obj: programmazioneDinamica/coefficenteBinomiale.c.obj
+.PHONY : programmazioneDinamica/coefficenteBinomiale.obj
+
+# target to build an object file
+programmazioneDinamica/coefficenteBinomiale.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/programmazioneDinamica/coefficenteBinomiale.c.obj
+.PHONY : programmazioneDinamica/coefficenteBinomiale.c.obj
+
+programmazioneDinamica/coefficenteBinomiale.i: programmazioneDinamica/coefficenteBinomiale.c.i
+.PHONY : programmazioneDinamica/coefficenteBinomiale.i
+
+# target to preprocess a source file
+programmazioneDinamica/coefficenteBinomiale.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/programmazioneDinamica/coefficenteBinomiale.c.i
+.PHONY : programmazioneDinamica/coefficenteBinomiale.c.i
+
+programmazioneDinamica/coefficenteBinomiale.s: programmazioneDinamica/coefficenteBinomiale.c.s
+.PHONY : programmazioneDinamica/coefficenteBinomiale.s
+
+# target to generate assembly for a file
+programmazioneDinamica/coefficenteBinomiale.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/programmazioneDinamica/coefficenteBinomiale.c.s
+.PHONY : programmazioneDinamica/coefficenteBinomiale.c.s
+
+programmazioneDinamica/fibonacciAlg.obj: programmazioneDinamica/fibonacciAlg.c.obj
+.PHONY : programmazioneDinamica/fibonacciAlg.obj
+
+# target to build an object file
+programmazioneDinamica/fibonacciAlg.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/programmazioneDinamica/fibonacciAlg.c.obj
+.PHONY : programmazioneDinamica/fibonacciAlg.c.obj
+
+programmazioneDinamica/fibonacciAlg.i: programmazioneDinamica/fibonacciAlg.c.i
+.PHONY : programmazioneDinamica/fibonacciAlg.i
+
+# target to preprocess a source file
+programmazioneDinamica/fibonacciAlg.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/programmazioneDinamica/fibonacciAlg.c.i
+.PHONY : programmazioneDinamica/fibonacciAlg.c.i
+
+programmazioneDinamica/fibonacciAlg.s: programmazioneDinamica/fibonacciAlg.c.s
+.PHONY : programmazioneDinamica/fibonacciAlg.s
+
+# target to generate assembly for a file
+programmazioneDinamica/fibonacciAlg.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/programmazioneDinamica/fibonacciAlg.c.s
+.PHONY : programmazioneDinamica/fibonacciAlg.c.s
+
 puntatori/malloc.obj: puntatori/malloc.c.obj
 .PHONY : puntatori/malloc.obj
 
@@ -842,6 +916,8 @@ help:
 	@echo ... rebuild_cache
 	@echo ... DoubleLinked
 	@echo ... alberi1
+	@echo ... coeffBin
+	@echo ... fibonacci
 	@echo ... insertionsorting
 	@echo ... liste1
 	@echo ... liste2
@@ -891,6 +967,12 @@ help:
 	@echo ... oridnamento/quick_sorting.obj
 	@echo ... oridnamento/quick_sorting.i
 	@echo ... oridnamento/quick_sorting.s
+	@echo ... programmazioneDinamica/coefficenteBinomiale.obj
+	@echo ... programmazioneDinamica/coefficenteBinomiale.i
+	@echo ... programmazioneDinamica/coefficenteBinomiale.s
+	@echo ... programmazioneDinamica/fibonacciAlg.obj
+	@echo ... programmazioneDinamica/fibonacciAlg.i
+	@echo ... programmazioneDinamica/fibonacciAlg.s
 	@echo ... puntatori/malloc.obj
 	@echo ... puntatori/malloc.i
 	@echo ... puntatori/malloc.s

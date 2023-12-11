@@ -16,5 +16,7 @@ C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/listeDoppie.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/insertionsorting.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/alberi1.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/quicksorting.dir
+C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/coeffBin.dir
+C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/fibonacci.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/David/Documents/Uni/IA/C/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -80,6 +80,8 @@ all: CMakeFiles/listeDoppie.dir/all
 all: CMakeFiles/insertionsorting.dir/all
 all: CMakeFiles/alberi1.dir/all
 all: CMakeFiles/quicksorting.dir/all
+all: CMakeFiles/coeffBin.dir/all
+all: CMakeFiles/fibonacci.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -105,6 +107,8 @@ clean: CMakeFiles/listeDoppie.dir/clean
 clean: CMakeFiles/insertionsorting.dir/clean
 clean: CMakeFiles/alberi1.dir/clean
 clean: CMakeFiles/quicksorting.dir/clean
+clean: CMakeFiles/coeffBin.dir/clean
+clean: CMakeFiles/fibonacci.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -114,7 +118,7 @@ clean: CMakeFiles/quicksorting.dir/clean
 CMakeFiles/new_target.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new_target.dir\build.make CMakeFiles/new_target.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\new_target.dir\build.make CMakeFiles/new_target.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=17,18,19,20 "Built target new_target"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=21,22,23,24 "Built target new_target"
 .PHONY : CMakeFiles/new_target.dir/all
 
 # Build rule for subdir invocation for target.
@@ -140,7 +144,7 @@ CMakeFiles/new_target.dir/clean:
 CMakeFiles/malloc.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\malloc.dir\build.make CMakeFiles/malloc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target malloc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=19,20 "Built target malloc"
 .PHONY : CMakeFiles/malloc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -166,7 +170,7 @@ CMakeFiles/malloc.dir/clean:
 CMakeFiles/puntatori1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\puntatori1.dir\build.make CMakeFiles/puntatori1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\puntatori1.dir\build.make CMakeFiles/puntatori1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=23,24 "Built target puntatori1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target puntatori1"
 .PHONY : CMakeFiles/puntatori1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -192,7 +196,7 @@ CMakeFiles/puntatori1.dir/clean:
 CMakeFiles/puntatori2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\puntatori2.dir\build.make CMakeFiles/puntatori2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\puntatori2.dir\build.make CMakeFiles/puntatori2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target puntatori2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target puntatori2"
 .PHONY : CMakeFiles/puntatori2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -218,7 +222,7 @@ CMakeFiles/puntatori2.dir/clean:
 CMakeFiles/raddopia.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\raddopia.dir\build.make CMakeFiles/raddopia.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\raddopia.dir\build.make CMakeFiles/raddopia.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=29,30 "Built target raddopia"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target raddopia"
 .PHONY : CMakeFiles/raddopia.dir/all
 
 # Build rule for subdir invocation for target.
@@ -244,7 +248,7 @@ CMakeFiles/raddopia.dir/clean:
 CMakeFiles/punt_mcd.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\punt_mcd.dir\build.make CMakeFiles/punt_mcd.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\punt_mcd.dir\build.make CMakeFiles/punt_mcd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=21,22 "Built target punt_mcd"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=25,26 "Built target punt_mcd"
 .PHONY : CMakeFiles/punt_mcd.dir/all
 
 # Build rule for subdir invocation for target.
@@ -270,7 +274,7 @@ CMakeFiles/punt_mcd.dir/clean:
 CMakeFiles/struttureintr.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\struttureintr.dir\build.make CMakeFiles/struttureintr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=35,36,37 "Built target struttureintr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=39,40,41 "Built target struttureintr"
 .PHONY : CMakeFiles/struttureintr.dir/all
 
 # Build rule for subdir invocation for target.
@@ -296,7 +300,7 @@ CMakeFiles/struttureintr.dir/clean:
 CMakeFiles/who.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\who.dir\build.make CMakeFiles/who.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\who.dir\build.make CMakeFiles/who.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=38,39 "Built target who"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=42,43 "Built target who"
 .PHONY : CMakeFiles/who.dir/all
 
 # Build rule for subdir invocation for target.
@@ -322,7 +326,7 @@ CMakeFiles/who.dir/clean:
 CMakeFiles/strutture.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strutture.dir\build.make CMakeFiles/strutture.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\strutture.dir\build.make CMakeFiles/strutture.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target strutture"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=37,38 "Built target strutture"
 .PHONY : CMakeFiles/strutture.dir/all
 
 # Build rule for subdir invocation for target.
@@ -348,7 +352,7 @@ CMakeFiles/strutture.dir/clean:
 CMakeFiles/sequenze_metodi.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequenze_metodi.dir\build.make CMakeFiles/sequenze_metodi.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\sequenze_metodi.dir\build.make CMakeFiles/sequenze_metodi.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target sequenze_metodi"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=35,36 "Built target sequenze_metodi"
 .PHONY : CMakeFiles/sequenze_metodi.dir/all
 
 # Build rule for subdir invocation for target.
@@ -374,7 +378,7 @@ CMakeFiles/sequenze_metodi.dir/clean:
 CMakeFiles/liste1.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste1.dir\build.make CMakeFiles/liste1.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste1.dir\build.make CMakeFiles/liste1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target liste1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target liste1"
 .PHONY : CMakeFiles/liste1.dir/all
 
 # Build rule for subdir invocation for target.
@@ -400,7 +404,7 @@ CMakeFiles/liste1.dir/clean:
 CMakeFiles/listePlay.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\listePlay.dir\build.make CMakeFiles/listePlay.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\listePlay.dir\build.make CMakeFiles/listePlay.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target listePlay"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=17,18 "Built target listePlay"
 .PHONY : CMakeFiles/listePlay.dir/all
 
 # Build rule for subdir invocation for target.
@@ -426,7 +430,7 @@ CMakeFiles/listePlay.dir/clean:
 CMakeFiles/liste2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste2.dir\build.make CMakeFiles/liste2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\liste2.dir\build.make CMakeFiles/liste2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target liste2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target liste2"
 .PHONY : CMakeFiles/liste2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -478,7 +482,7 @@ CMakeFiles/DoubleLinked.dir/clean:
 CMakeFiles/listeDoppie.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\listeDoppie.dir\build.make CMakeFiles/listeDoppie.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\listeDoppie.dir\build.make CMakeFiles/listeDoppie.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target listeDoppie"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target listeDoppie"
 .PHONY : CMakeFiles/listeDoppie.dir/all
 
 # Build rule for subdir invocation for target.
@@ -504,7 +508,7 @@ CMakeFiles/listeDoppie.dir/clean:
 CMakeFiles/insertionsorting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\insertionsorting.dir\build.make CMakeFiles/insertionsorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target insertionsorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target insertionsorting"
 .PHONY : CMakeFiles/insertionsorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -556,7 +560,7 @@ CMakeFiles/alberi1.dir/clean:
 CMakeFiles/quicksorting.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=27,28 "Built target quicksorting"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target quicksorting"
 .PHONY : CMakeFiles/quicksorting.dir/all
 
 # Build rule for subdir invocation for target.
@@ -574,6 +578,58 @@ quicksorting: CMakeFiles/quicksorting.dir/rule
 CMakeFiles/quicksorting.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\quicksorting.dir\build.make CMakeFiles/quicksorting.dir/clean
 .PHONY : CMakeFiles/quicksorting.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/coeffBin.dir
+
+# All Build rule for target.
+CMakeFiles/coeffBin.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target coeffBin"
+.PHONY : CMakeFiles/coeffBin.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/coeffBin.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/coeffBin.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/coeffBin.dir/rule
+
+# Convenience name for target.
+coeffBin: CMakeFiles/coeffBin.dir/rule
+.PHONY : coeffBin
+
+# clean rule for target.
+CMakeFiles/coeffBin.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\coeffBin.dir\build.make CMakeFiles/coeffBin.dir/clean
+.PHONY : CMakeFiles/coeffBin.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/fibonacci.dir
+
+# All Build rule for target.
+CMakeFiles/fibonacci.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target fibonacci"
+.PHONY : CMakeFiles/fibonacci.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/fibonacci.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/fibonacci.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\David\Documents\Uni\IA\C\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/fibonacci.dir/rule
+
+# Convenience name for target.
+fibonacci: CMakeFiles/fibonacci.dir/rule
+.PHONY : fibonacci
+
+# clean rule for target.
+CMakeFiles/fibonacci.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\fibonacci.dir\build.make CMakeFiles/fibonacci.dir/clean
+.PHONY : CMakeFiles/fibonacci.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

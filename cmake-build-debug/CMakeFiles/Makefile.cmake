@@ -69,4 +69,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/insertionsorting.dir/DependInfo.cmake"
   "CMakeFiles/alberi1.dir/DependInfo.cmake"
   "CMakeFiles/quicksorting.dir/DependInfo.cmake"
+  "CMakeFiles/coeffBin.dir/DependInfo.cmake"
+  "CMakeFiles/fibonacci.dir/DependInfo.cmake"
   )
